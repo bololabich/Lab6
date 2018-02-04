@@ -1,1 +1,0 @@
-Pawe³ Idryjan - readme
