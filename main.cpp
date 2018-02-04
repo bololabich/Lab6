@@ -13,7 +13,7 @@ int wybor, d;
 int main()
 {
 cout<<"LAborka 6 - kalkulator"<<endl;
-cout<<"Wybierz opcjê: 1 - dodawanie; 2 - odejmowanie; 3 - mno¿enie; 4 - dzielenie"<<endl;
+cout<<"Wybierz opcjÄ™: 1 - dodawanie; 2 - odejmowanie; 3 - mnoÅ¼enie; 4 - dzielenie"<<endl;
 cin>>wybor;
 
 back:
@@ -39,7 +39,7 @@ switch(wybor)
 	
 	case 3:
 		{
-		cout<<"a * b = "<<mnozenie(a, b);	
+		cout<<"a * b = "<<mnorzenie(a, b);	
 		break;
 		}
 		
@@ -51,15 +51,15 @@ switch(wybor)
 			}
 		else
 			{
-			cout<<"Nie mo¿na dzieliæ przez 0"<<endl;	
+			cout<<"Nie moÅ¼na dzieliÄ‡ przez 0"<<endl;	
 			}	
 		break;
 		}	
 	
 	case default:
 		{
-		cout<<"Z³y wybór opcji!!!"<<endl;
-		cout<<"Chcesz powtórzyæ program? 1 - tak; 2 - nie"<<endl;
+		cout<<"ZÅ‚y wybÃ³r opcji!!!"<<endl;
+		cout<<"Chcesz powtÃ³rzyÄ‡ program? 1 - tak; 2 - nie"<<endl;
 		cin>>d;
 		if(d==1)
 			{
